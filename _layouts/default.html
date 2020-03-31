@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- use "validator.w3.org" to validate my code/webpage -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description"
+		  content="This is the personal blog of the puerto rican environmental microbiologist Jose Liquet.">
+	<meta name="keywords"
+		  content="personal blog,puerto rico,environmental microbiology,Jose Enrique Liquet y Gonzalez,Jose Liquet,Microbiology,grad school,blog,puerto rican,microbiologist">
+	<meta name="author"
+		  content="Jose Enrique Liquet y Gonzalez">
+	<link rel="icon" href="css/wave-2.jpg">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>{{ page.title }}</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143090272-1"></script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143090272-1');
+	</script>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- you can only have one <body> element in a page -->
+<body>
+	<!-- Page Container -->
+	<div id="Container">
+		<!-- Headers go inside Division elements -->
+		<header>
+			<!-- Navigation -->
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html" title="Blog's homepage" class="active">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="about.html" title="Find out more about me">
+							About Me
+						</a>
+					</li>
+					<li>
+						<a href="research.html" title="My latest research news">
+							Research
+						</a>
+					</li>
+					<li>
+						<a href="projects.html" title="Some of my personal projects">
+							Personal projects
+						</a>
+					</li>
+					<li>
+						<a href="adventures.html" title="Some of my adventures lie here">
+							Adventures
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header> 
+		
+    {{ content }}
+    
+		<!-- Footer -->
+		<footing>
+			<small> &copy; 2019.:.with ❤, J.E.Liquet y Gonzalez.:.All Rights Reserved
+			- 
+			Sitemap 
+			<a href="sitemaps/sitemap.xml"
+			title="Links to all pages on this website">For Google </a>or 
+			<a href="sitemaps/sitemap.html"
+			title="Links to all pages on this website">For Humans </a>
+			</small>
+		</footing>
+	</div>
+</body>
+</html>
